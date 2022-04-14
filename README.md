@@ -9,7 +9,7 @@ RAM: DDR4-3000 8G * 2 (16G Dual-Channel)
 SYSTEM: Windows 10 Professional Workstation 21H2 - 19044
 COMPILER: Go 1.18
 BUILD COMMAND: go build
-TEST COMMAND: wrk -t100 -c1000 -d30s  --latency "http://127.0.0.1:8080"
+TEST COMMAND: wrk -t100 -c1000 -d30s --latency "http://127.0.0.1:8080"
 ```
 `With MetadataLoadToMem optimize OFF:`
 ```
